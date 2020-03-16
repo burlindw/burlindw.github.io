@@ -93,6 +93,7 @@ main ul li.selected a {
     max-width: 85%;
 }
 
-#content > * {
-    margin-right: 16px;
+#content img {
+    width: 90%;
+    margin: 0 5%;
 }
