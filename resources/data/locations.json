@@ -1,0 +1,78 @@
+{
+  "northrend": {
+    "name": "Northrend",
+    "desc": "Starting City",
+    "factions": [
+      {
+        "name": "Ironforge Family",
+        "desc": "Alric's Family"
+      },
+      {
+        "name": "Riverfrost Family",
+        "desc": "The ruling barons of Northrend"
+      }
+    ]
+  },
+  "baymoth": {
+    "name": "Baymoth",
+    "desc": "Destination of first quest",
+    "factions": [
+      {
+        "name": "Shipwrigths",
+        "desc": "The assholes trying to take over the north coast."
+      }
+    ]
+  },
+  "crossway": {
+    "name": "Crossway",
+    "desc": "The intersection of two rivers and the capital of Cyruth",
+    "factions": [
+      {
+        "name": "The Royal Family",
+        "desc": "The leaders of the Cyruth Empire."
+      },
+      {
+        "name": "Duke Dukey McDukeface",
+        "desc": "The nominal manager of the city and surrounding lands."
+      }
+    ]
+  },
+  "produs": {
+    "name": "Produs",
+    "desc": "A city built of woven rope amoung Lord Growth's branches.",
+    "factions": [
+      {
+        "name": "Lord Growth",
+        "desc": "Largely inactive, but if one does manage to anger it within it's branches, they will surely die"
+      },
+      {
+        "name": "The Council",
+        "desc": "The heads of the ruleing noble families"
+      }
+    ]
+  },
+  "consumus": {
+    "name": "Consumus",
+    "desc": "A city carved amoung Lord Growth's roots.",
+    "factions": [
+      {
+        "name": "Lord Growth",
+        "desc": "While less attentive here than amoung it's branches, attempting to harm it is still a fatal mistake."
+      },
+      {
+        "name": "The Syndicate",
+        "desc": "Led by Lord Theft and Lady Poison, the syndicate represents the most powerful criminal element on Cyruth."
+      }
+    ]
+  },
+  "silvaar": {
+    "name": "Silvaar",
+    "desc": "The regional capital of the Sivaaran Mountains, Silvaar is held within the largest peak of the range. The smoke rising from it's numerous forges often makes the mountain look like a volcano.",
+    "factions": [
+      {
+        "name": "Lord Mend and Lady Innovation",
+        "desc": "The lords rule over silvaar, encoraging many disiplines of crafting, but with a focus on smithing."
+      }
+    ]
+  }
+}
