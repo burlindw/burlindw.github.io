@@ -16,6 +16,7 @@ function createHeaderAndNav() {
     ul.appendChild(makeNavListItem('high_court.html', 'The High Court'));
     ul.appendChild(makeNavListItem('regions.html', 'Regions'));
     ul.appendChild(makeNavListItem('locations.html', 'Locations'));
+    ul.appendChild(makeNavListItem('races.html', 'Races'));
     ul.appendChild(makeNavListItem('creatures.html', 'Creatures'));
     ul.appendChild(makeNavListItem('items.html', 'Items'));
     ul.appendChild(makeNavListItem('maps.html', 'Maps'));
