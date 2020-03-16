@@ -90,7 +90,11 @@ main ul li.selected a {
 /* Content */
 #content {
     display: inline-block;
-    max-width: 85%;
+    width: 85%;
+}
+
+#content > * {
+    margin-right: 5%;
 }
 
 #content img {

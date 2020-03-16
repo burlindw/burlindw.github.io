@@ -1,6 +1,50 @@
 {
-  "bruno": {
+  "bruno_riverfrost": {
     "name": "Bruno Riverfrost",
     "desc": "Alric and Danny's childhood bully."
+  },
+  "fergal_ironforge": {
+    "name": "Fergal Ironforge",
+    "desc": "Alric's dad.",
+    "orgs": [ "Ironforge Family", "Imperial Legion" ]
+  },
+  "erin_ironforge": {
+    "name": "Erin Ironforge",
+    "desc": "Alric's older sister.",
+    "titles": [ "The Demoness of Northrend" ],
+    "orgs": [ "Ironforge Family", "Imperial Legion" ]
+  },
+  "talbot": {
+    "name": "Talbot",
+    "desc": "A freind and servant of Alric's father.",
+    "orgs": [ "Ironforge Family", "Imperial Legion" ]
+  },
+  "joan": {
+    "name": "Joan",
+    "desc": "One of Danny's first crushes, she rejects him thinking that Danny was helping Alric ask her out."
+  },
+  "jov_broom": {
+    "name": "Joveta Broom",
+    "lname": [ "Jov" ],
+    "desc": "Danny's younger sister."
+  },
+  "david_broom": {
+    "name": "David Broom",
+    "desc": "One of Danny's older brothers and a member of the Riverfrost Guard.",
+    "orgs": [ "Riverfrost Family" ]
+  },
+  "josh_broom": {
+    "name": "Joshua Broom",
+    "desc": "One of Danny's older brothers and an enforcer for the Icicle Syndicate.",
+    "orgs": [ "Icicle Syndicate" ]
+  },
+  "ms_joyfield": {
+    "name": "Ms. Joyfield",
+    "desc": "The teacher at the school Alric and Danny go to."
+  },
+  "morcar": {
+    "name": "Morcar",
+    "desc": "A bard employed at the Squeaky Hinge, he takes Danny as an aprentice to get out of doing work."
   }
+
 }

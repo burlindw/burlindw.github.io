@@ -1,0 +1,106 @@
+{
+  "northrend": {
+    "name": "Northrend",
+    "desc": "Starting City",
+    "factions": [
+      {
+        "name": "Ironforge Family",
+        "desc": "Alric's Family"
+      },
+      {
+        "name": "Riverfrost Family",
+        "desc": "The ruling barons of Northrend"
+      },
+      {
+        "name": "The Icicle Syndicate",
+        "desc": "The local gang"
+      }
+    ]
+  },
+  "baymoth": {
+    "name": "Baymoth",
+    "desc": "Destination of first quest",
+    "factions": [
+      {
+        "name": "Shipwrigths",
+        "desc": "The assholes trying to take over the north coast."
+      }
+    ]
+  },
+  "crossway": {
+    "name": "Crossway",
+    "desc": "The intersection of two rivers and the capital of Cyruth",
+    "factions": [
+      {
+        "name": "The Royal Family",
+        "desc": "The leaders of the Cyruth Empire."
+      },
+      {
+        "name": "Duke Dukey McDukeface",
+        "desc": "The nominal manager of the city and surrounding lands."
+      }
+    ]
+  },
+  "produs": {
+    "name": "Produs",
+    "desc": "A city built of woven rope amoung Lord Growth's branches.",
+    "factions": [
+      {
+        "name": "Lord Growth",
+        "desc": "Largely inactive, but if one does manage to anger it within it's branches, they will surely die"
+      },
+      {
+        "name": "The Council",
+        "desc": "The heads of the ruleing noble families"
+      }
+    ]
+  },
+  "consumus": {
+    "name": "Consumus",
+    "desc": "A city carved amoung Lord Growth's roots.",
+    "factions": [
+      {
+        "name": "Lord Growth",
+        "desc": "While less attentive here than amoung it's branches, attempting to harm it is still a fatal mistake."
+      },
+      {
+        "name": "The Syndicate",
+        "desc": "Led by Lord Theft and Lady Poison, the syndicate represents the most powerful criminal element on Cyruth."
+      }
+    ]
+  },
+  "silvaar": {
+    "name": "Silvaar",
+    "desc": "The regional capital of the Sivaaran Mountains, Silvaar is held within the largest peak of the range. The smoke rising from it's numerous forges often makes the mountain look like a volcano.",
+    "factions": [
+      {
+        "name": "Lord Mend and Lady Innovation",
+        "desc": "The lords rule over silvaar, encoraging many disiplines of crafting, but with a focus on smithing."
+      }
+    ]
+  },
+  "faiwer": {
+    "name": "Faiwer Sea",
+    "desc": "A remarkably calm sea to the south or Cyruth.",
+    "factions": [
+      {
+        "name": "Lady Sea",
+        "desc": "Faiwer is the principle home and teritory of Lady Sea, who treats the area like a garden. While she allows fishing and travel to some extent, anyone who disturbs it is killed or bared from returning."
+      }
+    ]
+  },
+  "grendale": {
+    "name": "The Grendale Forest",
+    "desc": "A massive forest in the north eastern part of Cyruth, covering nearly a fifth of the land. It is notable for having a high earth alignment and as the source of groed wood.",
+    "factions": [
+      {
+        "name": "The Lix",
+        "desc": "A little known race of reptilian people who stand about a foot tall and practice nature based magic. Their power is based on the strength of the forest and the groed tree was an attempt at spreading their influence, but the extensive logging that resulted from it has only decreased their power and relegated them to the deepest parts of the forest."
+      },
+      {
+        "name": "The Imperial Legion",
+        "desc": "The Imperial Legion maintains a presence here, centered in Clearstream."
+      }
+    ]
+  }
+}
