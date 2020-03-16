@@ -1,0 +1,98 @@
+:root {
+    --nav-background: #303030;
+    --nav-background-hover: #404040;
+    --background-dark: #7A7F80;
+    --background-light: #c4ccce;
+    --main-background: white;
+    --main-sidebar-background: #505050;
+    --main-sidebar-background-hover: #595959;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--background-light);
+    background-image: linear-gradient(to right, var(--background-light), var(--background-dark) 10%, var(--background-dark) 90%, var(--background-light));
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    background-color: var(--main-background);
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    min-height: 100%;
+    background-image: linear-gradient(to right, var(--main-sidebar-background), var(--main-sidebar-background) 15%, var(--main-background) 15%, var(--main-background));
+}
+
+/* Nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--nav-background);
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: var(--main-background);
+}
+nav ul li a:hover {
+    background-color: var(--nav-background-hover);
+}
+
+/* Items bar */
+main ul {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    width: 15%;
+}
+main ul li a {
+    display: block;
+    text-align: left;
+    padding: 6px 16px;
+    text-decoration: none;
+    color: var(--main-background);
+}
+main ul li a:hover {
+    background-color: var(--main-sidebar-background-hover);
+}
+
+main ul li.selected a {
+    background-color: var(--main-background);
+    color: var(--main-sidebar-background);
+}
+
+/* Content */
+#content {
+    display: inline-block;
+    max-width: 85%;
+}
+
+#content > * {
+    margin-right: 16px;
+}

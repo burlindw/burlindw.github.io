@@ -1,0 +1,250 @@
+{
+  "time": {
+    "name": "Lord Time",
+    "desc": "One of the founding members of the high court, Lord Time spends most of his time wandering about Cyruth as a simple traveler fixing problems before they occur.",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Time",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "space": {
+    "name": "Lord Space",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Space",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "growth": {
+    "name": "Lord Growth",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Growth",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "fate": {
+    "name": "Lady Fate",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Fate",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "mystery": {
+    "name": "Lady Mystery",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Mystery",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "fisher": {
+    "name": "Lord Fisher",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "The Seniverate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Fisher",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "theft": {
+    "name": "Lord Theft",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "Consumus Syndicate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Theft",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "pioson": {
+    "name": "Lady Poison",
+    "desc": "placeholder",
+    "orgs": [ "High Court", "Consumus Syndicate" ],
+    "cultivation": {
+      "truth": {
+        "name": "Poison",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "fury": {
+    "name": "Lord Fury",
+    "desc": "placeholder",
+    "lname": [ "Thadeus Fury" ],
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Fury",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "empathy": {
+    "name": "Lady Empathy",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Empathy",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "apathy": {
+    "name": "Lord Apathy",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Apathy",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "weaving": {
+    "name": "Lady Weaving",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Weaving",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "sea": {
+    "name": "Lady Sea",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Sea",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "tranquil": {
+    "name": "Lord Tranquil",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Tranquility",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "innovation": {
+    "name": "Lady Innovation",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Innovation",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "memory": {
+    "name": "Lady Memory",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Memory",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "valor": {
+    "name": "Lord Valor",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Valor",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "strategy": {
+    "name": "Lady Strategy",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Strategy",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "discovery": {
+    "name": "Lord Discovery",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Discovery",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "leadership": {
+    "name": "Lord Leadership",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Leadership",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "pompous": {
+    "name": "Lord Pompous",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Pompous",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "mend": {
+    "name": "Lord Mend",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ],
+    "cultivation": {
+      "truth": {
+        "name": "Mend",
+        "desc": "placeholder"
+      }
+    }
+  },
+  "storms": {
+    "name": "Champion of Storms",
+    "desc": "placeholder",
+    "orgs": [ "High Court" ]
+  }
+}

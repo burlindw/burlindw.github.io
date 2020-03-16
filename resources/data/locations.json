@@ -1,0 +1,16 @@
+{
+  "northrend": {
+    "name": "Northrend",
+    "desc": "Starting City",
+    "factions": [
+      {
+        "name": "Ironforge Family",
+        "desc": "Alric's Family"
+      },
+      {
+        "name": "Riverfrost Family",
+        "desc": "The ruling barons of Northrend"
+      }
+    ]
+  }
+}
