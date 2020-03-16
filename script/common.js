@@ -194,6 +194,13 @@ function itemInfo(container, json) {
     }
 }
 
+function image(container, json) {
+    container.appendChild(makeTextElement('h2', json.name, 1));
+    var img = document.createElement('img');
+    img.src = json.path;
+    container.appendChild(img);
+}
+
 /**
  * 
  * @param {string} content

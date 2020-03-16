@@ -5,19 +5,19 @@
     "loc": "Deep Grendale Forrest"
   },
   "airhorse": {
-    "name": "Ventu Horse",
+    "name": "Glidyer Horse",
     "desc": "Horses bred for speed and a high affinity for air, making them favored amoung scouts and messengers."
   },
   "firehorse": {
-    "name": "Aestu Horse",
+    "name": "Blazyer Horse",
     "desc": "Horses bred for agression and a high affinity for fire, making them favored amoung the high ranking and rich."
   },
   "waterhorse": {
-    "name": "Torren Horse",
+    "name": "Rivyer Horse",
     "desc": "Horses bred for manuverability and a high affinity for water, making them favored amoung calvary units."
   },
   "earthhorse": {
-    "name": "Humu Horse",
+    "name": "Boulyer Horse",
     "desc": "Horses bred for stength and a high affinity for earth, making them favored amoung farmers and merchants."
   }
 }
