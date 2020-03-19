@@ -1,34 +1,34 @@
 {
   "time": {
     "name": "Lord Time",
-    "desc": "One of the founding members of the high court, Lord Time spends most of his time wandering about Cyruth as a simple traveler fixing problems before they occur.",
+    "desc": "One of the oldest living things on the continent, Lord Time acts like a senile old man in order to disarm opponents and cover his careful manipulations.",
     "orgs": [ "High Court", "The Seniverate" ],
     "cultivation": {
       "truth": {
         "name": "Time",
-        "desc": "placeholder"
+        "desc": "He is able look into the past or future of the things and people he sees. Coupled with his age and experience he can often manipulate events to take place exactly as he desires."
       }
     }
   },
   "space": {
     "name": "Lord Space",
-    "desc": "placeholder",
+    "desc": "An adamant scholar and somewhat reluctant warrior, Lord Space mostly spends his time studying, or providing transportation to other members of the high court in exchange for books he dosen't have in his collection. He doesn't have the heart to tell the other Lords and Ladies to stop just writing poems for him.",
     "orgs": [ "High Court", "The Seniverate" ],
     "cultivation": {
       "truth": {
         "name": "Space",
-        "desc": "placeholder"
+        "desc": "He is able to move without crossing the intervening space, but not able to reach anywhere he would not be able to normaly."
       }
     }
   },
   "growth": {
     "name": "Lord Growth",
-    "desc": "placeholder",
+    "desc": "An ancient pear tree that, thanks was able to gain sapience and enough size to hold a city in both its roots and braches.",
     "orgs": [ "High Court", "The Seniverate" ],
     "cultivation": {
       "truth": {
         "name": "Growth",
-        "desc": "placeholder"
+        "desc": "It is able to aid the growth of any plants it is in contact, which is a huge area, considering the width of its root system."
       }
     }
   },
@@ -39,7 +39,7 @@
     "cultivation": {
       "truth": {
         "name": "Fate",
-        "desc": "placeholder"
+        "desc": "Able to intuit people's far reaching goals, as well as roughly how successful they will be."
       }
     }
   },
@@ -50,7 +50,7 @@
     "cultivation": {
       "truth": {
         "name": "Mystery",
-        "desc": "placeholder"
+        "desc": "Everyone except a very select few forget everything about her after she leaves their presence."
       }
     }
   },
@@ -101,7 +101,7 @@
   },
   "empathy": {
     "name": "Lady Empathy",
-    "desc": "placeholder",
+    "desc": "A dog",
     "orgs": [ "High Court" ],
     "cultivation": {
       "truth": {
@@ -112,7 +112,7 @@
   },
   "apathy": {
     "name": "Lord Apathy",
-    "desc": "placeholder",
+    "desc": "A cat who hangs out in Lord Space's library.",
     "orgs": [ "High Court" ],
     "cultivation": {
       "truth": {
@@ -123,7 +123,7 @@
   },
   "weaving": {
     "name": "Lady Weaving",
-    "desc": "placeholder",
+    "desc": "A spider",
     "orgs": [ "High Court" ],
     "cultivation": {
       "truth": {
@@ -244,7 +244,7 @@
   },
   "storms": {
     "name": "Champion of Storms",
-    "desc": "placeholder",
+    "desc": "Employed in the service of Lady Sea, he lives in a humble cabin in on the northern observing and studying the frequent storms.",
     "orgs": [ "High Court" ]
   }
 }

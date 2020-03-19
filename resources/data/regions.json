@@ -95,11 +95,21 @@
     "factions": [
       {
         "name": "The Lix",
-        "desc": "A little known race of reptilian people who stand about a foot tall and practice nature based magic. Their power is based on the strength of the forest and the groed tree was an attempt at spreading their influence, but the extensive logging that resulted from it has only decreased their power and relegated them to the deepest parts of the forest."
+        "desc": "Despite the continued decline of their race, if is still dangerous to be alone in the deep forest"
       },
       {
         "name": "The Imperial Legion",
         "desc": "The Imperial Legion maintains a presence here, centered in Clearstream."
+      }
+    ]
+  },
+  "arena": {
+    "name": "The Arena",
+    "desc": "A city built in a massive crater left behind by a cataclysmic fight. Later fights left comparatively smaller craters that make up the city's many arenas.",
+    "factions": [
+      {
+        "name": "Soilders of Valor",
+        "desc": "Lord Valor's army is headquartered here, and many fights and fighters are sponsored by either the Lord himself or one of his officers."
       }
     ]
   }

@@ -16,7 +16,7 @@
   },
   "lix": {
     "name": "Lix",
-    "desc": "Foot tall reptile people with nature magic.",
+    "desc": "A little known race of reptilian people who stand about a foot tall and practice nature based magic. Their power is based on the strength of the forest and the groed tree was an attempt at spreading their influence, but the extensive logging that resulted from it has only decreased their power and relegated them to the deepest parts of the forest.",
     "loc": "Deep in the Grendale Forest"
   },
   "oappead": {
@@ -29,8 +29,8 @@
     "desc": "Shiny hair",
     "loc": "The City of Silvaar"
   },
-  "desert": {
-    "name": "Wastelanders",
+  "scorch": {
+    "name": "Scorchlanders",
     "desc": "The Redguard from TES",
     "loc": "The Scorched Wastes"
   }

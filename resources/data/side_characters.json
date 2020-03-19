@@ -5,7 +5,7 @@
   },
   "fergal_ironforge": {
     "name": "Fergal Ironforge",
-    "desc": "Alric's dad.",
+    "desc": "The son of a prominent smith and knight as well as a smith and knight himself, he spends most of his time either in the forge or training himself and his household.",
     "orgs": [ "Ironforge Family", "Imperial Legion" ]
   },
   "erin_ironforge": {
@@ -16,7 +16,7 @@
   },
   "talbot": {
     "name": "Talbot",
-    "desc": "A freind and servant of Alric's father.",
+    "desc": "A former soldier who served under and befriened Fergal Ironforge. His cultivation had stagnated until he entered the Ironforge family's service, where he was able to advance.",
     "orgs": [ "Ironforge Family", "Imperial Legion" ]
   },
   "joan": {
