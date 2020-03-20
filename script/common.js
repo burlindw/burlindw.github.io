@@ -196,11 +196,26 @@ function itemInfo(container, json) {
     }
 }
 
-function image(container, json) {
+/**
+ * 
+ * @param {Node} container
+ * @param {JSON} json
+ */
+function imageInfo(container, json) {
     container.appendChild(makeTextElement('h2', json.name, 1));
     var img = document.createElement('img');
     img.src = json.path;
     container.appendChild(img);
+}
+
+/**
+ * 
+ * @param {Node} container
+ * @param {JSON} json
+ */
+function homeInfo(container, json) {
+    container.appendChild(makeTextElement('h2', json.title, 1));
+    container.appendChild(makeTextElement('p', json.desc, 2));
 }
 
 /**

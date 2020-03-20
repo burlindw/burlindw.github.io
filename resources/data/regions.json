@@ -24,6 +24,10 @@
       {
         "name": "Shipwrigths",
         "desc": "The assholes trying to take over the north coast."
+      },
+      {
+        "name": "Duke Placeholder",
+        "desc": "The duke of the city and surrounding lands."
       }
     ]
   },
@@ -36,7 +40,7 @@
         "desc": "The leaders of the Cyruth Empire."
       },
       {
-        "name": "Duke Dukey McDukeface",
+        "name": "Duke Placeholder",
         "desc": "The nominal manager of the city and surrounding lands."
       }
     ]
