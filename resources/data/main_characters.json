@@ -187,5 +187,34 @@
         }
       ]
     }
+  },
+  "kurtus": {
+    "name": "Kurtus",
+    "lname": [ "Venom", "Tensevenom" ],
+    "desc": "Cajun/Austrailian",
+    "cultivation": {
+      "essences": [
+        {
+          "name": "Venom",
+          "desc": "placeholder"
+        },
+        {
+          "name": "Water Lily",
+          "desc": "placeholder"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Antivenom",
+          "from": "Venom",
+          "desc": "All poisons and venoms get him drunk, rather than hurt"
+        },
+        {
+          "name": "Tension",
+          "from": "Water Lily",
+          "desc": "Can walk on water or mud without sinking"
+        }
+      ]
+    }
   }
 }

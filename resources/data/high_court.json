@@ -2,7 +2,7 @@
   "time": {
     "name": "Lord Time",
     "desc": "One of the oldest living things on the continent, Lord Time acts like a senile old man in order to disarm opponents and cover his careful manipulations.",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Time",
@@ -13,7 +13,7 @@
   "space": {
     "name": "Lord Space",
     "desc": "An adamant scholar and somewhat reluctant warrior, Lord Space mostly spends his time studying, or providing transportation to other members of the high court in exchange for books he dosen't have in his collection. He doesn't have the heart to tell the other Lords and Ladies to stop just writing poems for him.",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Space",
@@ -24,7 +24,7 @@
   "growth": {
     "name": "Lord Growth",
     "desc": "An ancient pear tree that, thanks was able to gain sapience and enough size to hold a city in both its roots and braches.",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Growth",
@@ -35,7 +35,7 @@
   "fate": {
     "name": "Lady Fate",
     "desc": "placeholder",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Fate",
@@ -46,7 +46,7 @@
   "mystery": {
     "name": "Lady Mystery",
     "desc": "placeholder",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Mystery",
@@ -57,7 +57,7 @@
   "fisher": {
     "name": "Lord Fisher",
     "desc": "placeholder",
-    "orgs": [ "High Court", "The Seniverate" ],
+    "orgs": [ "[link:organizations,high_court]", "[link:organizations,seniverate]" ],
     "cultivation": {
       "truth": {
         "name": "Fisher",
@@ -68,7 +68,7 @@
   "theft": {
     "name": "Lord Theft",
     "desc": "placeholder",
-    "orgs": [ "High Court", "Consumus Syndicate" ],
+    "orgs": [ "[link:organizations,high_court]", "Consumus Syndicate" ],
     "cultivation": {
       "truth": {
         "name": "Theft",
@@ -76,10 +76,10 @@
       }
     }
   },
-  "pioson": {
+  "poison": {
     "name": "Lady Poison",
     "desc": "placeholder",
-    "orgs": [ "High Court", "Consumus Syndicate" ],
+    "orgs": [ "[link:organizations,high_court]", "Consumus Syndicate" ],
     "cultivation": {
       "truth": {
         "name": "Poison",
@@ -91,7 +91,7 @@
     "name": "Lord Fury",
     "desc": "placeholder",
     "lname": [ "Thadeus Fury" ],
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Fury",
@@ -102,7 +102,7 @@
   "empathy": {
     "name": "Lady Empathy",
     "desc": "A dog",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Empathy",
@@ -113,7 +113,7 @@
   "apathy": {
     "name": "Lord Apathy",
     "desc": "A cat who hangs out in Lord Space's library.",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Apathy",
@@ -124,7 +124,7 @@
   "weaving": {
     "name": "Lady Weaving",
     "desc": "A spider",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Weaving",
@@ -135,7 +135,7 @@
   "sea": {
     "name": "Lady Sea",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Sea",
@@ -146,7 +146,7 @@
   "tranquil": {
     "name": "Lord Tranquil",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Tranquility",
@@ -157,7 +157,7 @@
   "innovation": {
     "name": "Lady Innovation",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Innovation",
@@ -168,7 +168,7 @@
   "memory": {
     "name": "Lady Memory",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Memory",
@@ -179,7 +179,7 @@
   "valor": {
     "name": "Lord Valor",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Valor",
@@ -190,7 +190,7 @@
   "strategy": {
     "name": "Lady Strategy",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Strategy",
@@ -201,7 +201,7 @@
   "discovery": {
     "name": "Lord Discovery",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Discovery",
@@ -212,7 +212,7 @@
   "leadership": {
     "name": "Lord Leadership",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Leadership",
@@ -223,7 +223,7 @@
   "pompous": {
     "name": "Lord Pompous",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Pompous",
@@ -234,7 +234,7 @@
   "mend": {
     "name": "Lord Mend",
     "desc": "placeholder",
-    "orgs": [ "High Court" ],
+    "orgs": [ "[link:organizations,high_court]" ],
     "cultivation": {
       "truth": {
         "name": "Mend",
@@ -245,6 +245,6 @@
   "storms": {
     "name": "Champion of Storms",
     "desc": "Employed in the service of Lady Sea, he lives in a humble cabin in on the northern observing and studying the frequent storms.",
-    "orgs": [ "High Court" ]
+    "orgs": [ "[link:organizations,high_court]" ]
   }
 }

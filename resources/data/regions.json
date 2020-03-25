@@ -4,15 +4,15 @@
     "desc": "Starting City",
     "factions": [
       {
-        "name": "Ironforge Family",
+        "name": "[link:organizations,ironforge]",
         "desc": "Alric's Family"
       },
       {
-        "name": "Riverfrost Family",
+        "name": "[link:organizations,riverfrost]",
         "desc": "The ruling barons of Northrend"
       },
       {
-        "name": "The Icicle Syndicate",
+        "name": "[link:organizations,icicle_syndicate]",
         "desc": "The local gang"
       }
     ]
@@ -50,7 +50,7 @@
     "desc": "A city built of woven rope amoung Lord Growth's branches.",
     "factions": [
       {
-        "name": "Lord Growth",
+        "name": "[link:high_court,growth]",
         "desc": "Largely inactive, but if one does manage to anger it within it's branches, they will surely die"
       },
       {
@@ -64,7 +64,7 @@
     "desc": "A city carved amoung Lord Growth's roots.",
     "factions": [
       {
-        "name": "Lord Growth",
+        "name": "[link:high_court,growth]",
         "desc": "While less attentive here than amoung it's branches, attempting to harm it is still a fatal mistake."
       },
       {
@@ -78,7 +78,7 @@
     "desc": "The regional capital of the Sivaaran Mountains, Silvaar is held within the largest peak of the range. The smoke rising from it's numerous forges often makes the mountain look like a volcano.",
     "factions": [
       {
-        "name": "Lord Mend and Lady Innovation",
+        "name": "[link:high_court,mend] and [link:high_court,innovation]",
         "desc": "The lords rule over silvaar, encoraging many disiplines of crafting, but with a focus on smithing."
       }
     ]
@@ -88,7 +88,7 @@
     "desc": "A remarkably calm sea to the south or Cyruth.",
     "factions": [
       {
-        "name": "Lady Sea",
+        "name": "[link:high_court,sea]",
         "desc": "Faiwer is the principle home and teritory of Lady Sea, who treats the area like a garden. While she allows fishing and travel to some extent, anyone who disturbs it is killed or bared from returning."
       }
     ]
@@ -114,6 +114,16 @@
       {
         "name": "Soilders of Valor",
         "desc": "Lord Valor's army is headquartered here, and many fights and fighters are sponsored by either the Lord himself or one of his officers."
+      }
+    ]
+  },
+  "gravel_coast": {
+    "name": "The Gravel Coast",
+    "desc": "The eastern coast of Cyruth",
+    "factions": [
+      {
+        "name": "[link:organizations,northern_pirates]",
+        "desc": "The main hunting grounds of the pirates"
       }
     ]
   }

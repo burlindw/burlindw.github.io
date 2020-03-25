@@ -16,7 +16,7 @@
   },
   "talbot": {
     "name": "Talbot",
-    "desc": "A former soldier who served under and befriened Fergal Ironforge. His cultivation had stagnated until he entered the Ironforge family's service, where he was able to advance.",
+    "desc": "A former soldier who served under and befriened <a href=\"./side_characters.html?id=fergal_ironforge\">Fergal Ironforge</a>. His cultivation had stagnated until he entered the Ironforge family's service, where he was able to advance.",
     "orgs": [ "Ironforge Family", "Imperial Legion" ]
   },
   "joan": {

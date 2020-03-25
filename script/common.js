@@ -14,6 +14,7 @@ function createHeaderAndNav() {
     ul.appendChild(makeNavListItem('main_characters.html', 'Main Characters'));
     ul.appendChild(makeNavListItem('side_characters.html', 'Side Characters'));
     ul.appendChild(makeNavListItem('high_court.html', 'The High Court'));
+    ul.appendChild(makeNavListItem('organizations.html', 'Organizations'));
     ul.appendChild(makeNavListItem('regions.html', 'Regions'));
     ul.appendChild(makeNavListItem('locations.html', 'Locations'));
     ul.appendChild(makeNavListItem('races.html', 'Races'));
@@ -80,12 +81,23 @@ function getURLParam(name, defVal) {
  * @param {string} elementType
  * @param {string} text
  * @param {number} indent
- * @returns {Node}
+ * @returns {Promise<Node>}
  */
-function makeTextElement(elementType, text, indent) {
+async function makeTextElement(elementType, text, indent) {
     var el = document.createElement(elementType);
     el.style.paddingLeft = (indent * 20) + 'px';
-    el.innerText += text;
+    
+    var reg = /\[link:([^,]+),([^,]+)\]/g
+    var m;
+    while ((m = reg.exec(text)) !== null) {
+        var pat = m[0]
+        var file = m[1];
+        var id = m[2];
+
+        text = await fetchData(file, data => text.replace(pat, `<a href="./${file}.html?id=${id}">${data[id].name}</a>`));
+    }
+
+    el.innerHTML = text;
 
     return el;
 }
@@ -95,56 +107,58 @@ function makeTextElement(elementType, text, indent) {
  * @param {Node} container
  * @param {JSON} json
  */
-function personInfo(container, json) {
-    const add = function (a, b, c) { return container.appendChild(makeTextElement(a, b, c)) };
+async function personInfo(container, json) {
+    const add = async function (a, b, c) { return await container.appendChild(await makeTextElement(a, b, c)) };
 
     if (json.lname) {
-        add('h2', `${json.name} (${json.lname.join(", ")})`, 1);
+        await add('h2', `${json.name} (${json.lname.join(", ")})`, 1);
     } else {
-        add('h2', json.name, 1);
+        await add('h2', json.name, 1);
     }
 
     if (json.desc) {
-        add('p', json.desc, 3);
+        await add('p', json.desc, 3);
     }
 
     if (json.titles) {
-        add('h3', 'Titles', 2);
-        add('p', json.titles.join(', '), 3);
+        await add('h3', 'Titles', 2);
+        await add('p', json.titles.join(', '), 3);
     }
 
     if (json.orgs) {
-        add('h3', 'Affiliations', 2);
-        add('p', json.orgs.join(', '), 3);
+        await add('h3', 'Affiliations', 2);
+        await add('p', json.orgs.join(', '), 3);
     }
 
     if (json.cultivation) {
-        add('h3', 'Cultivation', 2);
+        await add('h3', 'Cultivation', 2);
 
         if (json.cultivation.essences) {
-            add('h4', 'Essences', 3);
+            await add('h4', 'Essences', 3);
             for (var i in json.cultivation.essences) {
-                add('h5', json.cultivation.essences[i].name, 4);
-                add('p', json.cultivation.essences[i].desc, 5);
+                await add('h5', json.cultivation.essences[i].name, 4);
+                await add('p', json.cultivation.essences[i].desc, 5);
             }
         }
         if (json.cultivation.abilities) {
-            add('h4', 'Abilities', 3);
+            await add('h4', 'Abilities', 3);
             for (var i in json.cultivation.abilities) {
-                add('h5', json.cultivation.abilities[i].name, 4);
-                add('p', json.cultivation.abilities[i].desc, 5);
+                await add('h5', json.cultivation.abilities[i].name, 4);
+                await add('p', `Gained from ${json.cultivation.abilities[i].from}`, 5);
+                await add('p', json.cultivation.abilities[i].desc, 5);
             }
         }
         if (json.cultivation.combinations) {
-            add('h4', 'Combinations', 3);
+            await add('h4', 'Combinations', 3);
             for (var i in json.cultivation.combinations) {
-                add('h5', json.cultivation.combinations[i].name, 4);
-                add('p', json.cultivation.combinations[i].desc, 5);
+                await add('h5', json.cultivation.combinations[i].name, 4);
+                await add('p', `Gained from ${json.cultivation.combinations[i].from}`, 5);
+                await add('p', json.cultivation.combinations[i].desc, 5);
             }
         }
         if (json.cultivation.truth) {
-            add('h4', 'Truth: ' + json.cultivation.truth.name, 3);
-            add('p', json.cultivation.truth.desc, 4);
+            await add('h4', 'Truth: ' + json.cultivation.truth.name, 3);
+            await add('p', json.cultivation.truth.desc, 4);
         }
     }
 }
@@ -154,20 +168,20 @@ function personInfo(container, json) {
  * @param {Node} container
  * @param {JSON} json
  */
-function locationInfo(container, json) {
-    const add = function (a, b, c) { return container.appendChild(makeTextElement(a, b, c)) };
-    add('h2', json.name, 1);
+async function locationInfo(container, json) {
+    const add = async function (a, b, c) { return await container.appendChild(await makeTextElement(a, b, c)) };
+    await add('h2', json.name, 1);
 
     if (json.desc) {
-        add('p', json.desc, 3);
+        await add('p', json.desc, 3);
     }
 
     if (json.factions) {
-        add('h3', 'Factions', 2);
+        await add('h3', 'Factions', 2);
 
         for (var i in json.factions) {
-            add('h4', json.factions[i].name, 3);
-            add('p', json.factions[i].desc, 4);
+            await add('h4', json.factions[i].name, 3);
+            await add('p', json.factions[i].desc, 4);
         }
     }
 }
@@ -177,22 +191,22 @@ function locationInfo(container, json) {
  * @param {Node} container
  * @param {JSON} json
  */
-function itemInfo(container, json) {
-    const add = function (a, b, c) { return container.appendChild(makeTextElement(a, b, c)) };
-    add('h2', json.name, 1);
+async function itemInfo(container, json) {
+    const add = async function (a, b, c) { return await container.appendChild(await makeTextElement(a, b, c)) };
+    await add('h2', json.name, 1);
     
     if (json.desc) {
-        add('p', json.desc, 3);
+        await add('p', json.desc, 3);
     }
 
     if (json.loc) {
-        add('h3', 'Location', 2);
-        add('p', json.loc, 3);
+        await add('h3', 'Location', 2);
+        await add('p', json.loc, 3);
     }
 
     if (json.owner) {
-        add('h3', 'Owner', 2);
-        add('p', json.owner, 3);
+        await add('h3', 'Owner', 2);
+        await add('p', json.owner, 3);
     }
 }
 
@@ -201,8 +215,8 @@ function itemInfo(container, json) {
  * @param {Node} container
  * @param {JSON} json
  */
-function imageInfo(container, json) {
-    container.appendChild(makeTextElement('h2', json.name, 1));
+async function imageInfo(container, json) {
+    container.appendChild(await makeTextElement('h2', json.name, 1));
     var img = document.createElement('img');
     img.src = json.path;
     container.appendChild(img);
@@ -213,11 +227,35 @@ function imageInfo(container, json) {
  * @param {Node} container
  * @param {JSON} json
  */
-function homeInfo(container, json) {
-    container.appendChild(makeTextElement('h2', json.title, 1));
-    container.appendChild(makeTextElement('p', json.desc, 2));
+async function homeInfo(container, json) {
+    container.appendChild(await makeTextElement('h2', json.title, 1));
+    container.appendChild(await makeTextElement('p', json.desc, 2));
 }
 
+/**
+ * 
+ * @param {Node} container
+ * @param {JSON} json
+ */
+async function orgInfo(container, json) {
+    const add = async function (a, b, c) { return container.appendChild(await makeTextElement(a, b, c)) };
+
+    await add('h2', json.name, 1);
+
+    if (json.desc) {
+        await add('p', json.desc, 3);
+    }
+
+    if (json.leaders) {
+        await add('h3', 'Leaders', 2);
+        await add('p', json.leaders.join(', '), 3);
+    }
+
+    if (json.locations) {
+        await add('h3', 'Locations', 2);
+        await add('p', json.locations.join(', '), 3);
+    }
+}
 /**
  * 
  * @param {string} content
@@ -253,4 +291,8 @@ function initContent(content, call) {
 
     var me = document.currentScript;
     me.parentNode.insertBefore(main, me);
+}
+
+async function fetchData(name, func) {
+    return fetch(`./resources/data/${name}.json`).then(response => response.json()).then(func);
 }

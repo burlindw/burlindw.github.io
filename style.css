@@ -4,6 +4,7 @@
     --background-dark: #7A7F80;
     --background-light: #c4ccce;
     --main-background: white;
+    --main-forground: black;
     --main-sidebar-background: #505050;
     --main-sidebar-background-hover: #595959;
 }
@@ -95,6 +96,16 @@ main ul li.selected a {
 
 #content > * {
     margin-right: 5%;
+    color: var(--main-forground);
+}
+
+#content a {
+    text-decoration: none;
+    color: var(--main-forground);
+}
+
+#content a:hover {
+    color: var(--main-sidebar-background-hover);
 }
 
 #content img {
