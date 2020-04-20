@@ -126,5 +126,9 @@
         "desc": "The main hunting grounds of the pirates"
       }
     ]
+  },
+  "tribbals": {
+    "name": "The Tribbal Islands",
+    "desc": "Islands in the Lake Tribbal"
   }
 }

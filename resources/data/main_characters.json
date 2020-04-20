@@ -58,10 +58,15 @@
         "name": "Force",
         "desc": "Control the inertia of things he's in contact with."
       }
-    }
+    },
+    "symbols": [
+      {
+        "name": ""
+      }
+    ]
   },
   "danny": {
-    "name": "Daniel",
+    "name": "Danny",
     "lname": [ "Lute", "Lucry", "Charm", "Charisma" ],
     "titles": [ "Heartbreaker", "Heartkeeper" ],
     "desc": "Cheeky Bugger",
@@ -119,7 +124,12 @@
         "name": "Charisma",
         "desc": "Able to amplify or suppress existing emotions."
       }
-    }
+    },
+    "symbols": [
+      {
+        "name": "Birds"
+      }
+    ]
   },
   "ari": {
     "name": "Ari",
@@ -158,7 +168,10 @@
           "desc": "placeholder"
         }
       ]
-    }
+    },
+    "symbols": [
+
+    ]
   },
   "devon": {
     "name": "Devon",
@@ -186,7 +199,10 @@
           "desc": "placeholder"
         }
       ]
-    }
+    },
+    "symbols": [
+
+    ]
   },
   "kurtus": {
     "name": "Kurtus",
@@ -199,7 +215,7 @@
           "desc": "placeholder"
         },
         {
-          "name": "Water Lily",
+          "name": "Web",
           "desc": "placeholder"
         }
       ],
@@ -211,10 +227,13 @@
         },
         {
           "name": "Tension",
-          "from": "Water Lily",
+          "from": "Web",
           "desc": "Can walk on water or mud without sinking"
         }
       ]
     }
-  }
+  },
+  "symbols": [
+
+  ]
 }

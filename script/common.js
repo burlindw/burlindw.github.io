@@ -11,6 +11,7 @@ function createHeaderAndNav() {
     var ul = document.createElement('ul');
 
     ul.appendChild(makeNavListItem('index.html', 'Home'));
+    ul.appendChild(makeNavListItem('timeline.html', 'Timeline'));
     ul.appendChild(makeNavListItem('main_characters.html', 'Main Characters'));
     ul.appendChild(makeNavListItem('side_characters.html', 'Side Characters'));
     ul.appendChild(makeNavListItem('high_court.html', 'The High Court'));
@@ -87,7 +88,7 @@ async function makeTextElement(elementType, text, indent) {
     var el = document.createElement(elementType);
     el.style.paddingLeft = (indent * 20) + 'px';
     
-    var reg = /\[link:([^,]+),([^,]+)\]/g
+    var reg = /\[link:\s*([^,]+),\s*([^,]+)\]/g
     var m;
     while ((m = reg.exec(text)) !== null) {
         var pat = m[0]
@@ -160,6 +161,10 @@ async function personInfo(container, json) {
             await add('h4', 'Truth: ' + json.cultivation.truth.name, 3);
             await add('p', json.cultivation.truth.desc, 4);
         }
+    }
+
+    if (json.symbols) {
+
     }
 }
 
@@ -255,7 +260,47 @@ async function orgInfo(container, json) {
         await add('h3', 'Locations', 2);
         await add('p', json.locations.join(', '), 3);
     }
+
+    if (json.members) {
+        await add('h3', 'Members', 2);
+        await add('p', json.members.join(', '), 3);
+    }
 }
+
+/**
+ * 
+ * @param {Node} container
+ * @param {JSON} json
+ */
+async function timelineInfo(container, json) {
+    const add = async function (a, b, c) { return container.appendChild(await makeTextElement(a, b, c)) };
+
+    await add('h2', json.name, 1);
+
+    if (json.desc) {
+        await add('p', json.desc, 3);
+    }
+
+    if (json.events) {
+        await add('h3', 'Events', 2);
+        for (var i in json.events) {
+            await add('h4', json.events[i].name, 3);
+
+            if (json.events[i].time) {
+                if (json.events[i].time.start) {
+                    await add('p', `${json.events[i].time.start} => ${json.events[i].time.end}`, 5);
+                } else {
+                    await add('p', json.events[i].time, 5);
+                }
+            }
+
+            if (json.events[i].desc) {
+                await add('p', json.events[i].desc, 4);
+            }
+        }
+    }
+}
+
 /**
  * 
  * @param {string} content
