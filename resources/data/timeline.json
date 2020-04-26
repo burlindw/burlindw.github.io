@@ -45,8 +45,16 @@
         "time": "Spring 1, Week 1, Day 1"
       },
       {
+        "name": "Meeting [link:side_characters,ash]",
+        "desc": "Danny begins hearing a something almost like a lute in the distance as they travel and notices small amounts of food are going missing. After placing ash around some food that is left out they discover bird tracks in it the next morning. Danny manages to coax the bird into his hand and names it Ash.",
+        "time": {
+          "start": "Spring 1, Week 1, Day 1",
+          "end": "Spring 1, Week 1, Day 4"
+        }
+      },
+      {
         "name": "[link:locations,thirven]",
-        "desc": "Alric and Danny meet some reformed bandits",
+        "desc": "Alric and Danny meet some reformed bandits and have their expectations challenged again.",
         "time": {
           "start": "Spring 1, Week 1, Day 5",
           "end": "Spring 1, Week 2, Day 2"
@@ -54,7 +62,7 @@
       },
       {
         "name": "[link:locations,whole]",
-        "desc": "",
+        "desc": "They stay here for a while, it is where [link:high_court,time] inspires Alric. They leave after a confrontation with [link:side_characters,erin_ironforge].",
         "time": {
           "start": "Spring 1, Week 3, Day 2",
           "end": "Spring 1, Week 11, Day 4"
@@ -62,7 +70,7 @@
       },
       {
         "name": "Meeting the Champion",
-        "desc": "The bros meet the [link:high_court,storms] and to some training",
+        "desc": "The bros meet the [link:high_court,storms] and do some training",
         "time": {
           "start": "TBD",
           "end": "TBD"

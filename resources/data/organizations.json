@@ -43,6 +43,6 @@
     "name": "The Followers of Cys",
     "desc": "Crazies inspired by Alric and Danny",
     "leaders": [ "Some crazy dudes" ],
-    "locations": [ "The Tribbals" ]
+    "locations": [ "[link:regions,tribbals]" ]
   }
 }

@@ -16,17 +16,13 @@
   },
   "talbot": {
     "name": "Talbot",
-    "desc": "A former soldier who served under and befriened <a href=\"./side_characters.html?id=fergal_ironforge\">Fergal Ironforge</a>. His cultivation had stagnated until he entered the Ironforge family's service, where he was able to advance.",
+    "desc": "A former soldier who served under and befriened [link:side_characters,fergal_ironforge]. His cultivation had stagnated until he entered the Ironforge family's service, where he was able to advance.",
     "orgs": [ "Ironforge Family", "Imperial Legion" ]
-  },
-  "joan": {
-    "name": "Joan",
-    "desc": "One of Danny's first crushes, she rejects him thinking that Danny was helping Alric ask her out."
   },
   "jov_broom": {
     "name": "Joveta Broom",
     "lname": [ "Jov" ],
-    "desc": "Danny's younger sister."
+    "desc": "Danny's younger sister. Lives on Throughwoode Lane with her family."
   },
   "david_broom": {
     "name": "David Broom",
@@ -45,5 +41,9 @@
   "morcar": {
     "name": "Morcar",
     "desc": "A bard employed at the Squeaky Hinge, he takes Danny as an aprentice to get out of doing work."
+  },
+  "ash": {
+    "name": "Ash",
+    "desc": "A blue jay that Danny befriends."
   }
 }
