@@ -1,8 +1,8 @@
 function initContent() {
     var urlParams = new URLSearchParams(window.location.search);
 	
-		var tabs = document.getElementById('tabs');
-		var sections = document.getElementById('sections');
+	var tabs = document.getElementById('tabs');
+	var sections = document.getElementById('sections');
     var content = document.getElementById('content');
 
     fetch("./resources/data.json")
