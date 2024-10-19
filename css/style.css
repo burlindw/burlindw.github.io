@@ -1,0 +1,65 @@
+:root {
+  --theme-font-monospace: "Courier New", monospace;
+  
+  --theme-color-scheme: dark;
+  --theme-background: #1E1E1E;
+  --theme-foreground: #EEEEEE;
+  --theme-background-active: #333333;
+  --theme-foreground-active: #EEEEEE;
+}
+
+.focus-only:not(:focus-within):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+html {
+  color: var(--theme-foreground);
+  color-scheme: var(--theme-color-scheme);
+  background-color: var(--theme-background);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+}
+
+header .logo {
+  color: var(--theme-foreground);
+  font-family: var(--theme-font-monospace);
+  font-size: 2rem;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: var(--theme-foreground);
+  font-family: var(--theme-font-monospace);
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+nav a:hover, nav a:focus {
+  color: var(--theme-forground-active);
+  background-color: var(--theme-background-active);
+}
