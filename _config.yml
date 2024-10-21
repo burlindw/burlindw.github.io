@@ -1,3 +1,6 @@
 title: burlindw
 url: "https://burlindw.com"
 description: burlindw's personal projects.
+
+plugins:
+  - jekyll-feed
